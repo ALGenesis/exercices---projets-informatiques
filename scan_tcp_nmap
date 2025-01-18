@@ -1,0 +1,35 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-17 16:32 CET 
+
+Nmap scan report for 172.16.0.1
+Host is up, received arp-response (0.00071s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE    SERVICE REASON
+53/tcp filtered domain  no-response
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC)
+
+Nmap scan report for 172.16.0.2
+Host is up, received arp-response (0.0032s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE      REASON
+135/tcp open  msrpc        syn-ack ttl 255
+445/tcp open  microsoft-ds syn-ack ttl 255
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC)
+
+Nmap scan report for 172.16.0.3
+Host is up, received arp-response (0.00025s latency).
+All 1000 scanned ports on 172.16.0.3 are in ignored states.
+Not shown: 1000 filtered tcp ports (proto-unreach)
+MAC Address: 08:00:27:5D:15:61 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 172.16.0.5
+Host is up, received arp-response (0.00056s latency).
+All 1000 scanned ports on 172.16.0.5 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 08:00:27:D4:02:DD (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 172.16.0.6
+Host is up, received localhost-response (0.0000050s latency).
+All 1000 scanned ports on 172.16.0.6 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 12.81 seconds
